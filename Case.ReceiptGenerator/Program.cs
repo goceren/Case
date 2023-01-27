@@ -1,4 +1,4 @@
-namespace Case.KeyGenerator
+namespace Case.ReceiptGenerator
 {
     internal static class Program
     {

@@ -3,13 +3,13 @@ using System.Reflection;
 
 namespace Case.KeyGenerator
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
 
         public int keyLength = 0, keyCount = 0;
         public string alphabet = string.Empty;
 
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
         }

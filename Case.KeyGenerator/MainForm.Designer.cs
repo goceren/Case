@@ -1,6 +1,6 @@
 ﻿namespace Case.KeyGenerator
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -104,7 +104,7 @@
             // 
             // btnThirdway
             // 
-            this.btnThirdway.Location = new System.Drawing.Point(20, 328);
+            this.btnThirdway.Location = new System.Drawing.Point(20, 357);
             this.btnThirdway.Name = "btnThirdway";
             this.btnThirdway.Size = new System.Drawing.Size(114, 55);
             this.btnThirdway.TabIndex = 6;
@@ -114,7 +114,7 @@
             // 
             // btnSecondway
             // 
-            this.btnSecondway.Location = new System.Drawing.Point(20, 255);
+            this.btnSecondway.Location = new System.Drawing.Point(20, 269);
             this.btnSecondway.Name = "btnSecondway";
             this.btnSecondway.Size = new System.Drawing.Size(114, 51);
             this.btnSecondway.TabIndex = 5;
@@ -160,7 +160,7 @@
             // 
             // btnFirstway
             // 
-            this.btnFirstway.Location = new System.Drawing.Point(20, 179);
+            this.btnFirstway.Location = new System.Drawing.Point(20, 184);
             this.btnFirstway.Name = "btnFirstway";
             this.btnFirstway.Size = new System.Drawing.Size(114, 51);
             this.btnFirstway.TabIndex = 0;
