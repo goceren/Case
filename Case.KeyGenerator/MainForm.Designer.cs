@@ -28,7 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.lblControl = new System.Windows.Forms.Label();
             this.btnControlItems = new System.Windows.Forms.Button();
             this.txtKeyCount = new System.Windows.Forms.TextBox();
@@ -48,6 +53,10 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.label6);
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.lblControl);
             this.panel1.Controls.Add(this.btnControlItems);
             this.panel1.Controls.Add(this.txtKeyCount);
@@ -64,6 +73,49 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(477, 749);
             this.panel1.TabIndex = 0;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(20, 595);
+            this.label6.MaximumSize = new System.Drawing.Size(300, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(299, 30);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "Araştırma yapılmadan ve 3 gün  içerisinde düşünülmüş  algoritmalar olduğunu göz ö" +
+    "nünde bulundurunuz.";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(144, 434);
+            this.label5.MaximumSize = new System.Drawing.Size(300, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(298, 105);
+            this.label5.TabIndex = 13;
+            this.label5.Text = resources.GetString("label5.Text");
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(144, 314);
+            this.label4.MaximumSize = new System.Drawing.Size(300, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(289, 60);
+            this.label4.TabIndex = 12;
+            this.label4.Text = "Bu yöntem random kütüphanesinden 0 ile 1 arasında double bir sayı seçilerek bu se" +
+    "çilen sayının 23 ile çarpımından oluşan integer değeri alfabeden çekerek oluştur" +
+    "maktadır.";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(144, 184);
+            this.label3.MaximumSize = new System.Drawing.Size(300, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(297, 90);
+            this.label3.TabIndex = 11;
+            this.label3.Text = resources.GetString("label3.Text");
             // 
             // lblControl
             // 
@@ -104,7 +156,7 @@
             // 
             // btnThirdway
             // 
-            this.btnThirdway.Location = new System.Drawing.Point(20, 357);
+            this.btnThirdway.Location = new System.Drawing.Point(20, 434);
             this.btnThirdway.Name = "btnThirdway";
             this.btnThirdway.Size = new System.Drawing.Size(114, 55);
             this.btnThirdway.TabIndex = 6;
@@ -114,7 +166,7 @@
             // 
             // btnSecondway
             // 
-            this.btnSecondway.Location = new System.Drawing.Point(20, 269);
+            this.btnSecondway.Location = new System.Drawing.Point(20, 314);
             this.btnSecondway.Name = "btnSecondway";
             this.btnSecondway.Size = new System.Drawing.Size(114, 51);
             this.btnSecondway.TabIndex = 5;
@@ -187,14 +239,15 @@
             this.listBox.Size = new System.Drawing.Size(524, 749);
             this.listBox.TabIndex = 0;
             // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1001, 749);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Name = "Form1";
+            this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -219,5 +272,9 @@
         private ListBox listBox;
         private Label lblControl;
         private Button btnControlItems;
+        private Label label4;
+        private Label label3;
+        private Label label6;
+        private Label label5;
     }
 }

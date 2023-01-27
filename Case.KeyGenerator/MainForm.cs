@@ -91,18 +91,15 @@ namespace Case.KeyGenerator
                     var key = "";
 
                     // Normalde Date Parametresi kullanarak while olmadan istek üzerine çalýþtýrýlma durumunda bu þekilde kullanýlabilir.
-                    // Fakat 1000 adet istenildiði için while ile date parametresini manuel artýrarak ilerletiyoruz.
-
                     //var dateParam = DateTime.Now.ToString("yyMMddHHmmssff");
 
+
+                    // Fakat 1000 adet istenildiði için while ile date parametresini manuel artýrarak ilerletiyoruz.
                     var randomDouble = random.NextDouble().ToString();
                     var milisecond = int.Parse(randomDouble.Substring(randomDouble.Length - 3, 3));
                     var second = int.Parse(randomDouble.Substring(2, 1));
 
                     var dateParam = DateTime.Now.AddMilliseconds(milisecond).AddSeconds(second).ToString("yyMMddHHmmssff");
-                    //.ToString("yyMMddHHmmssff");
-                    //63-81-04-31-52-07-79-38-11
-                    //Metodu Hýzlandýrmak için
 
                     for (int i = 0; i < dateParam.Length / 2; i += 2)
                     {

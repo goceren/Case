@@ -99,6 +99,7 @@
             this.listboxResult.ItemHeight = 15;
             this.listboxResult.Location = new System.Drawing.Point(0, 60);
             this.listboxResult.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.listboxResult.MultiColumn = true;
             this.listboxResult.Name = "listboxResult";
             this.listboxResult.Size = new System.Drawing.Size(391, 757);
             this.listboxResult.TabIndex = 0;
@@ -193,6 +194,7 @@
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

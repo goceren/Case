@@ -21,7 +21,7 @@ namespace Case.ReceiptGenerator
         public MainForm()
         {
             InitializeComponent();
-        }   
+        }
 
         private void btnProcess_Click(object sender, EventArgs e)
         {
@@ -65,7 +65,7 @@ namespace Case.ReceiptGenerator
                     item.BackColor = Color.Red;
                     item.ForeColor = Color.White;
                 }
-                
+
             }
         }
 
@@ -131,7 +131,7 @@ namespace Case.ReceiptGenerator
                             Name = "lbl" + counter++,
                             Font = new Font(FontFamily.GenericSerif, 9f, FontStyle.Bold),
                             ForeColor = Color.Red,
-                    };
+                        };
 
                         labelList.Add(label);
                         pnlDesigner.Controls.Add(label);
@@ -164,6 +164,7 @@ namespace Case.ReceiptGenerator
 
                 foreach (var item in dict)
                 {
+
                     var title = string.Join(" ", item.Value.Select(i => i.Text));
                     listboxResult.Items.Add(title);
                 }

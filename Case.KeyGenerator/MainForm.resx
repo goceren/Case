@@ -57,4 +57,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Bu yöntem ise alhoritmasını Zaman parametresinden alan fakat istek üzerine kelime oluşturacak bir metoddur. Yani zaman parametresi kullanılarak kendi algoritmamızla alfabeden harf çekerek oluşturmaktadır. Yukarıdakilerden tek farkı ise verileri kontrol etmeden yapılması durumunda aynı keyi üretme ihtimali daha yüksek olan bir algoritmadır.</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Bu yöntem hızlı ve daha garanti bir yöntem olması için yazıldı. Çalışma mantığı alfabeyi karakter sayısı kadar birleştirerek oluşan yeni uzun alfabeyi new guid parametresiyle orderlayarak yani karıştırarak ilk 8 karakterin alınmasıyla oluşturulmuştur.
+ </value>
+  </data>
 </root>
