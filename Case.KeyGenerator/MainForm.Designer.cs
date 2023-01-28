@@ -101,11 +101,11 @@
             this.label4.Location = new System.Drawing.Point(144, 314);
             this.label4.MaximumSize = new System.Drawing.Size(300, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(289, 60);
+            this.label4.Size = new System.Drawing.Size(288, 60);
             this.label4.TabIndex = 12;
             this.label4.Text = "Bu yöntem random kütüphanesinden 0 ile 1 arasında double bir sayı seçilerek bu se" +
-    "çilen sayının 23 ile çarpımından oluşan integer değeri alfabeden çekerek oluştur" +
-    "maktadır.";
+    "çilen sayının alfabe uzunluğu ile çarpımından oluşan integer değeri alfabeden çe" +
+    "kerek oluşturmaktadır.";
             // 
             // label3
             // 
@@ -113,7 +113,7 @@
             this.label3.Location = new System.Drawing.Point(144, 184);
             this.label3.MaximumSize = new System.Drawing.Size(300, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(297, 90);
+            this.label3.Size = new System.Drawing.Size(297, 75);
             this.label3.TabIndex = 11;
             this.label3.Text = resources.GetString("label3.Text");
             // 
