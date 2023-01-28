@@ -77,7 +77,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(20, 595);
+            this.label6.Location = new System.Drawing.Point(20, 553);
             this.label6.MaximumSize = new System.Drawing.Size(300, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(299, 30);
@@ -128,7 +128,7 @@
             // 
             // btnControlItems
             // 
-            this.btnControlItems.Location = new System.Drawing.Point(347, 669);
+            this.btnControlItems.Location = new System.Drawing.Point(20, 610);
             this.btnControlItems.Name = "btnControlItems";
             this.btnControlItems.Size = new System.Drawing.Size(114, 55);
             this.btnControlItems.TabIndex = 9;

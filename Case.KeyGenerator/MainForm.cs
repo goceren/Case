@@ -93,7 +93,6 @@ namespace Case.KeyGenerator
                     // Normalde Date Parametresi kullanarak while olmadan istek üzerine çalýþtýrýlma durumunda bu þekilde kullanýlabilir.
                     //var dateParam = DateTime.Now.ToString("yyMMddHHmmssff");
 
-
                     // Fakat 1000 adet istenildiði için while ile date parametresini manuel artýrarak ilerletiyoruz.
                     var randomDouble = random.NextDouble().ToString();
                     var milisecond = int.Parse(randomDouble.Substring(randomDouble.Length - 3, 3));
@@ -101,6 +100,9 @@ namespace Case.KeyGenerator
 
                     var dateParam = DateTime.Now.AddMilliseconds(milisecond).AddSeconds(second).ToString("yyMMddHHmmssff");
 
+                    // Yeterince optimize edilmemiþtir. Süre uzun olmasý veya araþtýrma yapýlmasý durumunda daha kaliteli bir 
+                    // Algoritma kurulabilir. Problem ise alfabenin modunu aldýðýmýz için ayný karakteri seçme ihtimalimiz alfabenin uzunluðuyla
+                    // doðru orantýlý olacaktýr. Kýsacasý eksik bir algoritmadýr.
                     for (int i = 0; i < dateParam.Length / 2; i += 2)
                     {
                         var first = dateParam.Substring(i, 2);
@@ -155,7 +157,6 @@ namespace Case.KeyGenerator
                     lblControl.Text = "Çift Kayýt Bulunamadý.";
                     lblControl.ForeColor = Color.Green;
                 }
-            
             }
             
         }
