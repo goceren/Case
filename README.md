@@ -22,7 +22,7 @@ Proje çalıştırıldıktan sonra geçerli inputlar doldurularak veya default v
   - Algoritmalardan birisini çalıştırdıktan sonra üretilen keylerde aynı key olup olmadığını test etmektedir.
 
 
-** Case 2 (Case.ReceiptGenerator): Belirli alfabe ile 8 Karakterli Key üreten algoritma.
+** Case 2 (Case.ReceiptGenerator): Fişi Listeye dönüştürme
 
 Gereksinimler: 
 * Visual Studio 2022
@@ -34,4 +34,4 @@ Projenin Çalıştırılması :
 Proje .Net 7 kullanılarak oluşturulmuş Windows Forms uygulamasıdır. Kullanıcı kolaylığı açısından Windows Forms kullanılmıştır.
 Solutionu indirdikten sonra Case.ReceiptGenerator projesine sağ tıklayarak "Set as Startup Project" e tıklayarak çalıştırıp test edilebilir.
 Proje çalıştıktan sonra ise istenilirse verilen Default Json ile istenilirse farklı Json dosyası bilgisayardan seçilerek çalıştırılabilir. 
-Sağ tarafta bulunan listboxa istenilen çıktıyı. Sol tarafa ise labelları konumlarını görebilirsiniz. Ayrıca listboxtan seçtiğiniz line'ı sağ tarafta backgroundu kırmızı şekilde görüntüleyebilirisiniz.
+Sağ tarafta bulunan listboxa istenilen çıktıyı. Sol tarafa ise labelların konumlarını görebilirsiniz. Ayrıca listboxtan seçtiğiniz line'ı sağ tarafta backgroundu kırmızı şekilde görüntüleyebilirisiniz.
