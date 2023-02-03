@@ -1,5 +1,6 @@
 
 ** Case 1 (Case.KeyGenerator): Belirli alfabe ile 8 Karakterli Key üreten algoritma.
+*********************************************************************************************
 
 Gereksinimler: 
 * Visual Studio 2022
@@ -23,6 +24,7 @@ Proje çalıştırıldıktan sonra geçerli inputlar doldurularak veya default v
 
 
 ** Case 2 (Case.ReceiptGenerator): Fişi Listeye dönüştürme
+*********************************************************************************************
 
 Gereksinimler: 
 * Visual Studio 2022
